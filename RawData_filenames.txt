@@ -1,0 +1,58 @@
+All raw image datacube file names of size 2048x2048 pixels.
+All named data products are available in https://ode.rsl.wustl.edu/moon/
+We chose the JAXA KAGUYA (SELENE) Main Orbiter's MI Derived Data PDS3 Map V3.0 
+More information about it is available at https://ode.rsl.wustl.edu/moon/pagehelp/Content/Missions_Instruments/KAGUYA%20(SELENE)/MI/Derived_Data.htm
+
+We have produced patches of various sizes using our Matlab GoldStandard Application from these raw images.
+
+Model Training Data:
+mi_map_03_n14e310n13e311sc.img
+mi_map_03_n15e311n14e312sc.img
+mi_map_03_n16e311n15e312sc.img
+mi_map_03_n17e310n16e311sc.img
+mi_map_03_n18e307n17e308sc.img
+mi_map_03_n18e308n17e309sc.img
+mi_map_03_n18e309n17e310sc.img
+mi_map_03_n24e005n23e006sc.img
+mi_map_03_n24e006n23e007sc.img
+mi_map_03_n25e002n24e003sc.img
+mi_map_03_n25e303n24e304sc.img
+mi_map_03_n25e306n24e307sc.img
+mi_map_03_n25e307n24e308sc.img
+mi_map_03_n25e310n24e311sc.img
+mi_map_03_n26e001n25e002sc.img
+mi_map_03_n26e002n25e003sc.img
+mi_map_03_n26e003n25e004sc.img
+mi_map_03_n26e303n25e304sc.img
+mi_map_03_n26e305n25e306sc.img
+mi_map_03_n26e307n25e308sc.img
+mi_map_03_n26e308n25e309sc.img
+mi_map_03_n26e308n25e310sc.img
+mi_map_03_n26e310n25e311sc.img
+mi_map_03_n27e003n26e004sc.img
+mi_map_03_n27e303n26e304sc.img
+mi_map_03_n27e304n26e305sc.img
+mi_map_03_n27e305n26e306sc.img
+mi_map_03_n27e308n26e309sc.img
+mi_map_03_n27e309n26e310sc.img
+mi_map_03_n28e303n27e304sc.img
+mi_map_03_n29e308n28e309sc.img
+mi_map_03_n29e309n28e310sc.img
+mi_map_03_n29e310n28e311sc.img
+mi_map_03_n30e308n29e309sc.img
+mi_map_03_n30e309n29e310sc.img
+mi_map_03_n30e310n29e311sc.img
+mi_map_03_n31e308n30e309sc.img
+mi_map_03_n31e309n30e310sc.img
+mi_map_03_n47e309n46e310sc.img
+mi_map_03_n53e354n52e355sc.img
+mi_map_03_n53e355n52e356sc.img
+mi_map_03_n53e356n52e357sc.img
+mi_map_03_n53e357n52e358sc.img
+mi_map_03_n54e000n53e001sc.img
+mi_map_03_n54e357n53e358sc.img
+mi_map_03_n54e358n53e359sc.img
+mi_map_03_n55e000n54e001sc.img
+
+Trained Models' Testing Data:
+mi_map_03_n17e309n16e310sc.img
