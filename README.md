@@ -19,4 +19,6 @@ The repository comprises of all MATLAB files. Below, we explain the use of every
 
 9. surfacePlot & viewImage are scripts to visualise the raw image data / patches.
 
+10. RawData_filenames is a text file that details out all the raw image data files used for this research. It also outlines the URLs for the websites these data products can be requested from. All image datasubes are available freely for use by anyone. The rights of the image remains with the providers. Please check the file for further details. 
+
 It is to be noted that the placement of the files and folders must remain as it is in order for all the scripts to run properly. Additionally, the user must appropriately define the path to the datasets in their local device for the codes to run properly. Certain scripts automatically ask the user to input the path to the dataset on running the script. 
