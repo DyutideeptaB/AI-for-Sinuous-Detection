@@ -1,4 +1,4 @@
-# Codes for Artificial Intelligence based detection of lunar sinuous rilles - a comparison with manual methods
+# Codes for Artificial Intelligence based detection of lunar sinuous rilles
 The repository comprises of all MATLAB files. Below, we explain the use of every file.
 
 1. Networks folder comprises of all the Deep Learning network files altered for our datasets.
@@ -9,9 +9,9 @@ The repository comprises of all MATLAB files. Below, we explain the use of every
 
 4. TransferLearning_File & DeepLearning_File are the matlab scripts defining details of the training process for our needs. These are suppose to be present in the project's folder as it is but not neccesarily edited.
 
-5. DeepLearning_Run-File & TransferLearning_Run-File are the scripts that the user needs to run to initiate the training model process. Once all the process is complete for MI dataset in Deep Learning, the user has to manually uncomment the lines for RGB type data and comment back the MI channel selection lines to do the model training. Transfer Learning is only available for RGB type dataset.
+5. DeepLearning_Run_File & TransferLearning_Run_File are the scripts that the user needs to run to initiate the training model process. Once all the process is complete for MI dataset in Deep Learning, the user has to manually uncomment the lines for RGB type data and comment back the MI channel selection lines to do the model training. Transfer Learning is only available for RGB type dataset.
 
-6. Predictions-validation & Predictions_Testing are scripts to save all the prediction analysis from the various trained models. The user has to define the directory of the trained model data saves, and the script automatically creates appropriate folders/ directories to save the prediction statistics for every type of model. 
+6. Predictions_Validation & Predictions_Testing are scripts to save all the prediction analysis from the various trained models. The user has to define the directory of the trained model data saves, and the script automatically creates appropriate folders/ directories to save the prediction statistics for every type of model. 
 
 7. Testing_values script uses an isolated test dataset to make test predictions on the trained models. 
 
