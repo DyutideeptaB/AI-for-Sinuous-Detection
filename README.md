@@ -25,3 +25,5 @@ The repository comprises of all MATLAB files. Below, we explain the use of every
 11. **TestImage.zip** file is an original raw image file provided to reproduce patches for testing on application and training codes. 
 
 It is to be noted that the placement of the files and folders must remain as it is in order for all the scripts to run properly. Additionally, the user must appropriately define the path to the datasets in their local device for the codes to run properly. Certain scripts automatically ask the user to input the path to the dataset on running the script.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15462412.svg)](https://doi.org/10.5281/zenodo.15462412)
