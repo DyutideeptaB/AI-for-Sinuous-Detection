@@ -24,23 +24,36 @@ The pipeline includes:
 
 ## 📂 Repository Contents  
 
-| Folder/File | Description |
-|-------------|-------------|
-| `Networks` | Deep Learning network files customized for training on multispectral lunar datasets |
-|  ├── `CustomNetwork.mlx`
-|  ├── `MyGoogleNet.mlx`
-|  └── `MyResNet50.mlx`
-| `goldStandardApp/` | MATLAB App for manual annotation and patch generation from MI/DTM data |
+<pre>```AI-based-detection-of-Lunar-sinuous-rilles/
+
+| 
+├── Networks                                                         # Deep Learning network files customized for training on multispectral lunar datasets 
+|  ├── CustomNetwork.mlx
+|  ├── MyGoogleNet.mlx
+|  └── MyResNet50.mlx
+|
+├── goldStandardApp                                                  # MATLAB App for manual annotation and patch generation from MI/DTM data 
 |  └── GoldStandardApp.mlapp
-| `readPatch.mlx` / `readPatchWithProcessing.mlx` | Custom preprocessing functions (also embedded in the app) |
-| `TransferLearning_File.m` / `DeepLearning_File.m` | Scripts defining the model architectures and training logic |
-| `TransferLearning_Run_File.m` / `DeepLearning_Run_File.m` | Launch scripts to train models (MI and RGB datasets) |
-| `Predictions_Validation.mlx` / `Predictions_Testing.mlx` | Save and analyze prediction statistics from trained models |
-| `Testing_values.mlx` | Apply models to isolated test sets |
-| `gradcam_visualizations.mlx` | Generate Grad-CAM visualizations for model explainability |
-| `surfacePlot.mlx` / `viewImage.mlx` | Visualize raw and processed images or patches |
-| `RawData_filenames.txt` | Source URLs and metadata of raw datasets used |
-| `TestImage.zip` | Sample dataset to reproduce and test the application |
+|
+├── readPatch.mlx / readPatchWithProcessing.mlx                      # Custom preprocessing functions (also embedded in the app) 
+|
+├── TransferLearning_File.m / DeepLearning_File.m                    # Scripts defining the model architectures and training logic 
+|
+├── TransferLearning_Run_File.m / DeepLearning_Run_File.m            # Launch scripts to train models (MI and RGB datasets) 
+|
+├── Predictions_Validation.mlx / Predictions_Testing.mlx             # Save and analyze prediction statistics from trained models 
+|
+├── Testing_values.mlx                                               # Apply models to isolated test sets 
+|
+├── gradcam_visualizations.mlx                                       # Generate Grad-CAM visualizations for model explainability 
+|
+├── surfacePlot.mlx / viewImage.mlx                                  # Visualize raw and processed images or patches 
+|
+├── RawData_filenames.txt                                            # Source URLs and metadata of raw datasets used 
+|
+├── TestImage.zip                                                    # Sample dataset to reproduce and test the application 
+|
+└── README.md                                                        # Project description and documentation```</pre>
 
 📝 **Note**:  
 - File and folder placement must remain unchanged for proper execution.  
