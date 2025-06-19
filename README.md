@@ -26,8 +26,12 @@ The pipeline includes:
 
 | Folder/File | Description |
 |-------------|-------------|
-| `Networks/` | Deep Learning network files customized for training on multispectral lunar datasets |
-| `goldStandardApp/GlodStandardApp.mlapp` | MATLAB App for manual annotation and patch generation from MI/DTM data |
+| `Networks` | Deep Learning network files customized for training on multispectral lunar datasets |
+|  ├── `CustomNetwork.mlx`
+|  ├── `MyGoogleNet.mlx`
+|  └── `MyResNet50.mlx`
+| `goldStandardApp/` | MATLAB App for manual annotation and patch generation from MI/DTM data |
+|  └── GoldStandardApp.mlapp
 | `readPatch.mlx` / `readPatchWithProcessing.mlx` | Custom preprocessing functions (also embedded in the app) |
 | `TransferLearning_File.m` / `DeepLearning_File.m` | Scripts defining the model architectures and training logic |
 | `TransferLearning_Run_File.m` / `DeepLearning_Run_File.m` | Launch scripts to train models (MI and RGB datasets) |
