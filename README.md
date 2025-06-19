@@ -4,7 +4,7 @@ _Deep Learning models and spectral image tools for automated lunar surface featu
 ---
 
 ## 🌌 Project Overview  
-This project implements a **deep learning-based pipeline** for the automated detection of **sinuous rilles**—volcanic channels on the Moon—using high-resolution multispectral data from JAXA's SELENE KAGUYA Orbiter.
+This project implements a **deep learning-based pipeline** for the automated detection of **sinuous rilles**-volcanic channels on the Moon-using high-resolution multispectral data from JAXA's SELENE (KAGUYA) Mission.
 
 The pipeline includes:
 - A custom MATLAB GUI for image patch creation and feature annotation  
