@@ -108,6 +108,7 @@ Approx. **57.7 MB**
 
 ## 🛰 Data Sources  
 Raw multispectral and DTM image data used in this project are sourced from open-access planetary repositories. See `RawData_filenames.txt` for dataset URLs and usage rights.
+Image Patches generated are publicly available. DOI: [10.34740/kaggle/dsv/8421156](https://doi.org/10.34740/kaggle/dsv/8421156)
 
 ---
 
