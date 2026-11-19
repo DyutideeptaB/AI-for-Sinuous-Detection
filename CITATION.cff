@@ -1,0 +1,48 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: AI for Sinuous Detection
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Dyutideepta
+    family-names: Banerjee
+    email: dyutideepta.banerjee@gmail.com
+    affiliation: 'University of Padua, Italy'
+    orcid: 'https://orcid.org/0009-0009-8023-2816'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.15462412
+    description: >-
+      Software and dataset repository for Lunar feature
+      images
+repository-code: 'https://github.com/DyutideeptaB/AI-for-Sinuous-Detection'
+url: 'https://dyutideepta.is-a.dev/'
+abstract: >-
+  AI-powered detection of lunar sinuous rilles using
+  multispectral satellite imagery and MATLAB-based deep
+  learning models. Built for planetary science with a custom
+  GUI and CNN pipeline.
+keywords:
+  - Artificial Intelligence
+  - Computer Vision
+  - Machine Learning
+  - Deep Learning
+  - Image Processing
+  - Image Pre-processing
+  - GPU
+  - Parallel Computing
+  - Remote Sensing
+  - App Development
+  - Feature Detection
+  - MATLAB
+  - Lunar SELENE KAGUYA
+  - Mulltispectral Imaging
+  - Digital Terrain Models
+license: MIT
+commit: 61f698dded6128a959025365e6a2ce5018179e97
+version: 1.0.0
+date-released: '2025-08-25'
